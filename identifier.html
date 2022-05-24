@@ -26,7 +26,7 @@
     window.addEventListener("message", (e) => {
       var data = e.data;
       const { action, providerName } = data;
-      if (action === "identifier") {
+      if (action === "login") {
         showOAuthLogin(providerName);
       }
     });
@@ -37,6 +37,7 @@
       let master = window.location.hostname;
 
       getOAuthURL(trackingId, master, providerName, function (oauthUrl, requestId) {
+        // we have the auth Url, go to it
         child.location.replace(oauthUrl);
 
         // Listen to localstorage event to receive response from OAuth provider
