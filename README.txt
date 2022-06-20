@@ -2,7 +2,7 @@ This sample website is the companion to https://github.com/wimdecorte/fms-webd-o
 These are the parts that run under FileMaker Server's web server. The remote web site will hand off certain requests to the code here.
 
 See this blog post for how it works:
-<TBD>
+https://www.soliantconsulting.com/blog/filemaker-custom-oauth-login-webdirect/
 
 
 Enjoy!
