@@ -1,6 +1,31 @@
 This sample website is the companion to https://github.com/wimdecorte/fms-webd-oauth-remote
 These are the parts that run under FileMaker Server's web server. The remote web site will hand off certain requests to the code here.
 
+Put the files and folders here:
+
+    Windows: 
+		
+				<FileMaker Server Installation>\HTTPServer\conf\
+
+    macOS:
+
+        HTTPS (port 443): <FileMaker Server Installation>/HTTPServer/htdocs/httpsRoot/
+
+        HTTP (port 80): <FileMaker Server Installation>/HTTPServer/htdocs/
+
+    Ubuntu:
+
+			When using Apache
+        HTTPS (port 443): <FileMaker Server Installation>/HTTPServer/htdocs/httpsRoot/
+
+        HTTP (port 80): <FileMaker Server Installation>/HTTPServer/htdocs/
+
+			When using Nginx
+				HTTPS (port 443): <FileMaker Server Installation>/NginxServer/htdocs/httpsRoot
+				
+				HTTPS (port 80): <FileMaker Server Installation>/NginxServer/htdocs/
+
+
 See this blog post for how it works:
 https://www.soliantconsulting.com/blog/filemaker-custom-oauth-login-webdirect/
 
