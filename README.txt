@@ -5,7 +5,7 @@ Put the files and folders here:
 
     Windows: 
 		
-				<FileMaker Server Installation>\HTTPServer\conf\
+	<FileMaker Server Installation>\HTTPServer\conf\
 
     macOS:
 
@@ -15,15 +15,15 @@ Put the files and folders here:
 
     Ubuntu:
 
-			When using Apache
+	When using Apache
         HTTPS (port 443): <FileMaker Server Installation>/HTTPServer/htdocs/httpsRoot/
 
         HTTP (port 80): <FileMaker Server Installation>/HTTPServer/htdocs/
 
-			When using Nginx
-				HTTPS (port 443): <FileMaker Server Installation>/NginxServer/htdocs/httpsRoot
-				
-				HTTPS (port 80): <FileMaker Server Installation>/NginxServer/htdocs/
+	When using Nginx
+	HTTPS (port 443): <FileMaker Server Installation>/NginxServer/htdocs/httpsRoot
+		
+	HTTPS (port 80): <FileMaker Server Installation>/NginxServer/htdocs/
 
 
 See this blog post for how it works:
